@@ -1,0 +1,35 @@
+
+<header>
+    <nav class="navbar navbar-expand-lg navbar-light ">
+        <div class="container-fluid">
+            <i style="font-size: 40px;color: aliceblue;" class="fas fa-light fa-dragon">&nbsp;
+                    
+            </i>
+            <strong style="font-size: 30px;color: aliceblue;">Xceed</strong>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <form class="d-flex">
+                <input class="form-control me-2 " type="search" placeholder="Search" >
+                
+                <i class="fas fa-search search-icon"></i>
+
+               </form>
+             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <button routerLink="/login" type="button" class="btn btn-danger"> Log Out </button>
+              </li>
+                           
+             </ul>
+            
+          </div>
+          <button routerLink="/cart" class="btn btn-light" id="carticon">
+            <i style="font-size: 30px;" class="fas fa-cart-plus"></i>
+            <div style="font-size: 10px;" class="badge bg-danger">{{totalItem}}</div>
+        </button>
+        </div>
+      </nav>
+</header>
+  
